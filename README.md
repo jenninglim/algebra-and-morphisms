@@ -1,4 +1,4 @@
-# algebra-and-catamorphisms
+# algebra-and-morphisms
 
 Useful resources:
 
