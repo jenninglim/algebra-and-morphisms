@@ -1,4 +1,7 @@
 # algebra-and-morphisms
+used examples from:
+
+http://www.cs.ox.ac.uk/jeremy.gibbons/publications/embedding.pdf
 
 Useful resources:
 
