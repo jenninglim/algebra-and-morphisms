@@ -13,6 +13,8 @@ Parsers
 
 Category Theory prerequisites 
 
++ introduction: http://www.cs.ox.ac.uk/jeremy.gibbons/publications/acmmpc-calcfp.pdf
+
 + folding dsl :													http://www.cs.ox.ac.uk/jeremy.gibbons/publications/embedding.pdf
 
 + use of category theory to express a set of recursion schemes: http://maartenfokkinga.github.io/utwente/mmf91m.pdf - 
