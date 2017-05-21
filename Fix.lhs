@@ -1,3 +1,6 @@
+> {-# LANGUAGE StandaloneDeriving #-}
+> {-# LANGUAGE UndecidableInstances #-}
+
 FIX POINTS
 ==========
 
@@ -14,6 +17,7 @@ Fix Points
 This is where all the magic happens.
 
 > data Fix f = In { inop :: f (Fix f) }
+> deriving instance (Show (f (Fix f))) => Show (Fix f)
 > -- | In   :: f (Fix f) -> Fix f
 > -- | inop :: Fix f     -> f (Fix f)
 
