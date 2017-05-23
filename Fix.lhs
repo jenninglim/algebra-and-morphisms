@@ -37,11 +37,12 @@ Catamorphism
 
 The catamorphism is a generalised fold. The inop will peek
 on the data type and then we will (this is the recurive part)
-call the itself on the recursive parts of the data type - this
-corresponds to fmap (cata alg). once it arrives at the base
-case. The algebra will start transforming the data structure
+call cata . alg on itself - applied to the recursive parts of the data type - this
+corresponds to fmap (cata alg). It will stop once it arrives at the base
+case and the algebra will start transforming the data structure
 by pattern matching on its structure until we have the desired result.
 
 The similarity to folds now becomes obvious. It will traverse the data
 structure (fmap (cata alg)) then collapse its structure step by step (alg)
-until we have the desired result.
+until we have the desired result. The algebra uses the parameterised 
+type to accumulate the desired results.
